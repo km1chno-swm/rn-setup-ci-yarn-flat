@@ -1,5 +1,10 @@
 {
   "expo": {
-    "name": "rn-setup-ci-yarn-flat"
+    "name": "rn-setup-ci-yarn-flat",
+    "extra": {
+      "eas": {
+        "projectId": "a8fe33c1-43b5-4c5f-97cb-1d64a2b57500"
+      }
+    }
   }
 }
