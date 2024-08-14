@@ -1,4 +1,5 @@
 {
-  "name": "rnSetupCiYarnFlat",
-  "displayName": "rnSetupCiYarnFlat"
+  "expo": {
+    "name": "rn-setup-ci-yarn-flat"
+  }
 }
