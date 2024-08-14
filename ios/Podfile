@@ -14,7 +14,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'rnSetupCiYarnFlat' do
+target 'RnSetupCiYarnFlat' do
   config = use_native_modules!
 
   use_react_native!(
@@ -23,7 +23,7 @@ target 'rnSetupCiYarnFlat' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'rnSetupCiYarnFlatTests' do
+  target 'RnSetupCiYarnFlatTests' do
     inherit! :complete
     # Pods for testing
   end

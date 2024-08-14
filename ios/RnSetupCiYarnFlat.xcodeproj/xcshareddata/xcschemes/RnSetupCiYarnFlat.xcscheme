@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "rnSetupCiYarnFlat.app"
-               BlueprintName = "rnSetupCiYarnFlat"
-               ReferencedContainer = "container:rnSetupCiYarnFlat.xcodeproj">
+               BuildableName = "RnSetupCiYarnFlat.app"
+               BlueprintName = "RnSetupCiYarnFlat"
+               ReferencedContainer = "container:RnSetupCiYarnFlat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "rnSetupCiYarnFlatTests.xctest"
-               BlueprintName = "rnSetupCiYarnFlatTests"
-               ReferencedContainer = "container:rnSetupCiYarnFlat.xcodeproj">
+               BuildableName = "RnSetupCiYarnFlatTests.xctest"
+               BlueprintName = "RnSetupCiYarnFlatTests"
+               ReferencedContainer = "container:RnSetupCiYarnFlat.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "rnSetupCiYarnFlat.app"
-            BlueprintName = "rnSetupCiYarnFlat"
-            ReferencedContainer = "container:rnSetupCiYarnFlat.xcodeproj">
+            BuildableName = "RnSetupCiYarnFlat.app"
+            BlueprintName = "RnSetupCiYarnFlat"
+            ReferencedContainer = "container:RnSetupCiYarnFlat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "rnSetupCiYarnFlat.app"
-            BlueprintName = "rnSetupCiYarnFlat"
-            ReferencedContainer = "container:rnSetupCiYarnFlat.xcodeproj">
+            BuildableName = "RnSetupCiYarnFlat.app"
+            BlueprintName = "RnSetupCiYarnFlat"
+            ReferencedContainer = "container:RnSetupCiYarnFlat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

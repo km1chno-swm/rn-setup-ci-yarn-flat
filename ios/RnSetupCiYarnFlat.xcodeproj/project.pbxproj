@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* rnSetupCiYarnFlatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnSetupCiYarnFlatTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-rnSetupCiYarnFlat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-rnSetupCiYarnFlat.a */; };
+		00E356F31AD99517003FC87E /* RnSetupCiYarnFlatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RnSetupCiYarnFlatTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-RnSetupCiYarnFlat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RnSetupCiYarnFlat.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F6062D6D608AFDC18AA3615C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1C45B52D55588123AE9D0A46 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,28 +23,29 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = rnSetupCiYarnFlat;
+			remoteInfo = RnSetupCiYarnFlat;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* rnSetupCiYarnFlatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rnSetupCiYarnFlatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* RnSetupCiYarnFlatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RnSetupCiYarnFlatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* rnSetupCiYarnFlatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rnSetupCiYarnFlatTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* rnSetupCiYarnFlat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnSetupCiYarnFlat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rnSetupCiYarnFlat/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = rnSetupCiYarnFlat/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rnSetupCiYarnFlat/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rnSetupCiYarnFlat/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rnSetupCiYarnFlat/main.m; sourceTree = "<group>"; };
-	    13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = rnSetupCiYarnFlat/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-rnSetupCiYarnFlat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnSetupCiYarnFlat.debug.xcconfig"; path = "Target Support Files/Pods-rnSetupCiYarnFlat/Pods-rnSetupCiYarnFlat.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-rnSetupCiYarnFlat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnSetupCiYarnFlat.release.xcconfig"; path = "Target Support Files/Pods-rnSetupCiYarnFlat/Pods-rnSetupCiYarnFlat.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.debug.xcconfig"; path = "Target Support Files/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-rnSetupCiYarnFlat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnSetupCiYarnFlat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rnSetupCiYarnFlat/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.release.xcconfig"; path = "Target Support Files/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RnSetupCiYarnFlatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RnSetupCiYarnFlatTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* RnSetupCiYarnFlat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RnSetupCiYarnFlat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RnSetupCiYarnFlat/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RnSetupCiYarnFlat/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RnSetupCiYarnFlat/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RnSetupCiYarnFlat/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RnSetupCiYarnFlat/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RnSetupCiYarnFlat/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C45B52D55588123AE9D0A46 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = RnSetupCiYarnFlat/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-RnSetupCiYarnFlat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnSetupCiYarnFlat.debug.xcconfig"; path = "Target Support Files/Pods-RnSetupCiYarnFlat/Pods-RnSetupCiYarnFlat.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-RnSetupCiYarnFlat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnSetupCiYarnFlat.release.xcconfig"; path = "Target Support Files/Pods-RnSetupCiYarnFlat/Pods-RnSetupCiYarnFlat.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.debug.xcconfig"; path = "Target Support Files/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-RnSetupCiYarnFlat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnSetupCiYarnFlat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RnSetupCiYarnFlat/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.release.xcconfig"; path = "Target Support Files/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -52,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,20 +62,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-rnSetupCiYarnFlat.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-RnSetupCiYarnFlat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* rnSetupCiYarnFlatTests */ = {
+		00E356EF1AD99517003FC87E /* RnSetupCiYarnFlatTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* rnSetupCiYarnFlatTests.m */,
+				00E356F21AD99517003FC87E /* RnSetupCiYarnFlatTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = rnSetupCiYarnFlatTests;
+			path = RnSetupCiYarnFlatTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -84,7 +86,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* rnSetupCiYarnFlat */ = {
+		13B07FAE1A68108700A75B9A /* RnSetupCiYarnFlat */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -94,16 +96,17 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				1C45B52D55588123AE9D0A46 /* PrivacyInfo.xcprivacy */,
 			);
-			name = rnSetupCiYarnFlat;
+			name = RnSetupCiYarnFlat;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-rnSetupCiYarnFlat.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-RnSetupCiYarnFlat.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,9 +121,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* rnSetupCiYarnFlat */,
+				13B07FAE1A68108700A75B9A /* RnSetupCiYarnFlat */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* rnSetupCiYarnFlatTests */,
+				00E356EF1AD99517003FC87E /* RnSetupCiYarnFlatTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -133,8 +136,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* rnSetupCiYarnFlat.app */,
-				00E356EE1AD99517003FC87E /* rnSetupCiYarnFlatTests.xctest */,
+				13B07F961A680F5B00A75B9A /* RnSetupCiYarnFlat.app */,
+				00E356EE1AD99517003FC87E /* RnSetupCiYarnFlatTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,10 +145,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-rnSetupCiYarnFlat.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-rnSetupCiYarnFlat.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-RnSetupCiYarnFlat.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-RnSetupCiYarnFlat.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -153,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* rnSetupCiYarnFlatTests */ = {
+		00E356ED1AD99517003FC87E /* RnSetupCiYarnFlatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnSetupCiYarnFlatTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RnSetupCiYarnFlatTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -169,14 +172,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = rnSetupCiYarnFlatTests;
-			productName = rnSetupCiYarnFlatTests;
-			productReference = 00E356EE1AD99517003FC87E /* rnSetupCiYarnFlatTests.xctest */;
+			name = RnSetupCiYarnFlatTests;
+			productName = RnSetupCiYarnFlatTests;
+			productReference = 00E356EE1AD99517003FC87E /* RnSetupCiYarnFlatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* rnSetupCiYarnFlat */ = {
+		13B07F861A680F5B00A75B9A /* RnSetupCiYarnFlat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnSetupCiYarnFlat" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RnSetupCiYarnFlat" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -190,9 +193,9 @@
 			);
 			dependencies = (
 			);
-			name = rnSetupCiYarnFlat;
-			productName = rnSetupCiYarnFlat;
-			productReference = 13B07F961A680F5B00A75B9A /* rnSetupCiYarnFlat.app */;
+			name = RnSetupCiYarnFlat;
+			productName = RnSetupCiYarnFlat;
+			productReference = 13B07F961A680F5B00A75B9A /* RnSetupCiYarnFlat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnSetupCiYarnFlat" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RnSetupCiYarnFlat" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +228,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* rnSetupCiYarnFlat */,
-				00E356ED1AD99517003FC87E /* rnSetupCiYarnFlatTests */,
+				13B07F861A680F5B00A75B9A /* RnSetupCiYarnFlat */,
+				00E356ED1AD99517003FC87E /* RnSetupCiYarnFlatTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +248,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F6062D6D608AFDC18AA3615C /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,15 +277,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat/Pods-rnSetupCiYarnFlat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat/Pods-RnSetupCiYarnFlat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat/Pods-rnSetupCiYarnFlat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat/Pods-RnSetupCiYarnFlat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat/Pods-rnSetupCiYarnFlat-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat/Pods-RnSetupCiYarnFlat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -299,7 +303,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -321,7 +325,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnSetupCiYarnFlat-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RnSetupCiYarnFlat-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -334,15 +338,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -351,15 +355,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat/Pods-rnSetupCiYarnFlat-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat/Pods-RnSetupCiYarnFlat-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat/Pods-rnSetupCiYarnFlat-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat/Pods-RnSetupCiYarnFlat-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat/Pods-rnSetupCiYarnFlat-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat/Pods-RnSetupCiYarnFlat-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -368,15 +372,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests/Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests/Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -386,7 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* rnSetupCiYarnFlatTests.m in Sources */,
+				00E356F31AD99517003FC87E /* RnSetupCiYarnFlatTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +408,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* rnSetupCiYarnFlat */;
+			target = 13B07F861A680F5B00A75B9A /* RnSetupCiYarnFlat */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,14 +416,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = rnSetupCiYarnFlatTests/Info.plist;
+				INFOPLIST_FILE = RnSetupCiYarnFlatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,17 +437,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnSetupCiYarnFlat.app/rnSetupCiYarnFlat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RnSetupCiYarnFlat.app/RnSetupCiYarnFlat";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-rnSetupCiYarnFlat-rnSetupCiYarnFlatTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RnSetupCiYarnFlat-RnSetupCiYarnFlatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = rnSetupCiYarnFlatTests/Info.plist;
+				INFOPLIST_FILE = RnSetupCiYarnFlatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,19 +461,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnSetupCiYarnFlat.app/rnSetupCiYarnFlat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RnSetupCiYarnFlat.app/RnSetupCiYarnFlat";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-rnSetupCiYarnFlat.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RnSetupCiYarnFlat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = rnSetupCiYarnFlat/Info.plist;
+				INFOPLIST_FILE = RnSetupCiYarnFlat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,7 +485,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rnSetupCiYarnFlat;
+				PRODUCT_NAME = RnSetupCiYarnFlat;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -490,12 +494,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-rnSetupCiYarnFlat.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RnSetupCiYarnFlat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = rnSetupCiYarnFlat/Info.plist;
+				INFOPLIST_FILE = RnSetupCiYarnFlat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,7 +511,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rnSetupCiYarnFlat;
+				PRODUCT_NAME = RnSetupCiYarnFlat;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -582,7 +586,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -647,7 +658,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -655,7 +672,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnSetupCiYarnFlatTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RnSetupCiYarnFlatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -664,7 +681,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnSetupCiYarnFlat" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RnSetupCiYarnFlat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -673,7 +690,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnSetupCiYarnFlat" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RnSetupCiYarnFlat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
