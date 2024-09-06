@@ -1,0 +1,8 @@
+# example-flow.yaml
+
+appId: com.rnsetupciyarnflat
+---
+- launchApp
+- extendedWaitUntil: 
+    visible: "Welcome to React Native"
+    timeout: 120000
