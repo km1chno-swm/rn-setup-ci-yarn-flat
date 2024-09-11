@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "2020",
+    "sourceType": "module"
+  },
+  "extends": ["@react-native", "eslint:recommended"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {}
+}
