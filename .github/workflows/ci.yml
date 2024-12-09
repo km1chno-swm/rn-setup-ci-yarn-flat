@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🏗 Setup repo
+        uses: actions/checkout@v4
+
+      - name: 🌿 Setup Node
+        uses: actions/setup-node@v4
+        with:
+          cache: "yarn"
+
+      - name: 📦 Install dependencies
+        run: yarn install --immutable
+
+      - name: 🤓 Run ESLint
+        run: yarn run lint
+
+      - name: 🔍 Run Typescript check
+        run: yarn run ts:check
+
+      - name: 🎭 Run Jest
+        run: yarn run test
